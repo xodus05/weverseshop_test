@@ -1,0 +1,32 @@
+.logo {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 160px;
+    height: 23px;
+}
+.txt_logo {
+    width: 23px;
+    height: 23px;
+}
+
+.right {
+    margin-top: 10px;
+    float: right;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.right_login {
+    float: right;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    text-align: center;
+}
