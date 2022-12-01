@@ -1,0 +1,161 @@
+.logo {
+    margin-top: 10px;
+    margin-left: 330px;
+    width: 160px;
+    height: 23px;
+}
+.txt_logo {
+    width: 23px;
+    height: 23px;
+}
+
+.right {
+    margin-top: 10px;
+    float: right;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 290px;
+}
+
+.right_login {
+    float: right;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+
+
+.top-bar {
+    text-align: center;
+}
+
+/*
+ul, li {
+    list-style: none; margin: 0; padding: 0;
+}
+.clear {
+    clear: both;
+}
+li.on{
+    color: rgb(8, 232, 199);
+} */
+
+
+.merch{
+    margin-right: 20px;
+}
+.dvd{
+    margin-right: 20px;
+}
+.tour-merch{
+    margin-right: 20px;
+}
+.collab{
+    margin-right: 20px;
+}
+.hybe-insight{
+    margin-right: 20px;
+}
+.album{
+    margin-right: 20px;
+}
+.weverse{
+    margin-right: 20px;
+}
+.membership{
+    margin-right: 20px;
+}
+.book{
+    margin-right: 20px;
+}
+.favorites{
+    margin-right: 20px;
+}
+.deco{
+    margin-right: 20px;
+}
+.season-greetings{
+    margin-right: 20px;
+}
+
+.scond_box{
+    background-color: rgb(250, 251, 252);
+    border-bottom: 1px solid rgb(235, 235, 235);
+    
+}
+
+.scond_box_1{
+    width: 100%;
+    position: relative;
+    margin: 0px auto;
+    display: flex;
+    margin-left: 330px;
+    
+}
+
+.scond_box_2{
+    text-align: center;
+}
+
+.all{
+    margin-right: 20px;
+}
+
+.birthday-party{
+    margin-right: 20px;
+}
+
+.official-merch{
+    margin-right: 20px;
+}
+
+.goodboygonebad{
+    margin-right: 20px;
+}
+
+.chaotic{
+    margin-right: 20px;
+}
+
+.foe{
+    margin-right: 20px;
+}
+
+.bluehour{
+    margin-right: 20px;
+}
+
+.eternity{
+    margin-right: 20px;
+}
+
+.magic{
+    margin-right: 20px;
+}
+
+.body_main_merch_all{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 330px;
+}
+.all_main{
+    margin-bottom: 2.2rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.all[aria-current="true"] {
+    color: rgb(250, 251, 252);
+    padding: 10px 15px;
+    background-color: rgb(173, 177, 184);
+    border-radius: 0.4rem;
+}
