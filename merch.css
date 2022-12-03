@@ -9,6 +9,46 @@
     height: 23px;
 }
 
+.login_txt{
+    border-radius: 1.8rem;
+    margin: 0px;
+    appearance: none;
+    background: rgb(8, 204, 202);
+    border: none;
+    cursor: pointer;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+}
+
+.color_s{
+    color: rgb(170, 170, 170);
+}
+
+.join_txt{
+    border-radius: 1.8rem;
+    margin: 0px;
+    appearance: none;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    color: rgb(8, 204, 202);
+    border: 1px solid currentColor;
+    display: inline-flex;
+}
+
 .right {
     margin-top: 10px;
     float: right;
@@ -31,7 +71,10 @@ a{
     text-align: center;
 }
 
-
+.merch[aria-current="true"]{
+    margin-right: 20px;
+    color: rgb(8, 204, 202);
+}
 
 .top-bar {
     text-align: center;
@@ -141,7 +184,7 @@ li.on{
     margin-right: 20px;
 }
 
-.body_main_merch_all{
+.body_merch_all{
     margin: auto;
     margin-top: 20px;
     margin-left: 330px;
@@ -158,4 +201,49 @@ li.on{
     padding: 10px 15px;
     background-color: rgb(173, 177, 184);
     border-radius: 0.4rem;
+}
+
+.soobin-stroy-book{
+    margin-top: -20px;
+    margin-left: 330px;
+    width: 200px;
+    height: 240px;
+}
+
+.single_soobin{
+    font-size: 1px;
+    margin-left: -1190px;
+    white-space: nowrap;
+}
+
+.money{
+    width: auto;
+    height: auto;
+}
+
+.stroy-soobin-money{
+    width: auto;
+    height: auto;
+    margin-left: 330px;
+}
+
+.stroy-book_sub{
+    margin-top: 5px;
+    margin-left: 340px;
+    font-size: 15px;
+    color: rgb(32, 36, 41);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.soobin_story-book2{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sbn-stroy-book{
+    display: block;
 }
