@@ -64,6 +64,14 @@
     margin-left: 30px;
 }
 
+.main_box{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    --fixed-top-height: 6.4rem;
+    --layout-max-width: 20rem;
+    --layout-padding: 2rem;
+}
 
 a{
     text-decoration: none;
@@ -188,6 +196,7 @@ li.on{
     margin: auto;
     margin-top: 20px;
     margin-left: 330px;
+
 }
 .all_main{
     margin-bottom: 2.2rem;
@@ -203,31 +212,39 @@ li.on{
     border-radius: 0.4rem;
 }
 
+.goods_all{
+    padding: 0px;
+    list-style: none;
+    margin: 0;
+}
+
+
+/*stroy book*/
 .soobin-stroy-book{
     margin-top: -20px;
     margin-left: 330px;
     width: 200px;
     height: 240px;
+
 }
 
+/* 단독판매 */
 .single_soobin{
     font-size: 1px;
     margin-left: -1190px;
     white-space: nowrap;
+    
 }
 
-.money{
+.soobin-money{
+    font-size: 0.9rem;
+    margin-top: -10px;
+    margin-left: -1150px;
     width: auto;
-    height: auto;
-}
-
-.stroy-soobin-money{
-    width: auto;
-    height: auto;
-    margin-left: 330px;
 }
 
 .stroy-book_sub{
+    display: flex;
     margin-top: 5px;
     margin-left: 340px;
     font-size: 15px;
@@ -238,12 +255,45 @@ li.on{
     word-break: break-all;
 }
 
-.soobin_story-book2{
-    position: relative;
-    padding: 0px;
-    margin: 0px;
-}
-
 .sbn-stroy-book{
+    width: auto;
     display: block;
 }
+
+
+/*poster set*/
+/* .soobin-poster-set{
+    margin-top: -20px;
+    margin-left: 330px;
+    width: 200px;
+    height: 240px;
+    position: relative;
+
+}
+
+.single_soobin{
+    font-size: 1px;
+    margin-left: -1190px;
+    white-space: nowrap;
+}
+
+.soobin-money{
+    font-size: 0.9rem;
+    margin-top: -10px;
+    margin-left: -1150px;
+}
+
+.poster-set_sub{
+    margin-top: 5px;
+    margin-left: 340px;
+    font-size: 15px;
+    color: rgb(32, 36, 41);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.sbn-poster-set{
+    display: block;
+} */
