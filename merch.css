@@ -88,6 +88,10 @@ a{
     text-align: center;
 }
 
+body{
+    overflow: hidden;
+}
+
 /*
 ul, li {
     list-style: none; margin: 0; padding: 0;
@@ -195,7 +199,7 @@ li.on{
 .body_merch_all{
     margin: auto;
     margin-top: 20px;
-    margin-left: 330px;
+    margin-left: 400px;
 
 }
 .all_main{
@@ -220,80 +224,163 @@ li.on{
 
 
 /*stroy book*/
-.soobin-stroy-book{
-    margin-top: -20px;
-    margin-left: 330px;
+#columns figure{
     width: 200px;
-    height: 240px;
-
-}
-
-/* 단독판매 */
-.single_soobin{
-    font-size: 1px;
-    margin-left: -1190px;
-    white-space: nowrap;
+    height: 383px;
+    margin-left: 400px;
+    display: flex;
     
 }
 
-.soobin-money{
+.soobin-stroy-book{
+    margin-top: -20px;
+    width: 200px;
+    height: 240px;
+}
+
+/* 단독판매 */
+.single_soobin_st{
+    font-size: 1px;
+    display: inline;
+    margin-left: -130px;
+}
+
+.soobin-money_st{
     font-size: 0.9rem;
+    display: inline;
     margin-top: -10px;
-    margin-left: -1150px;
-    width: auto;
+    margin-left: -110px;
 }
 
 .stroy-book_sub{
-    display: flex;
+    display: inline;
     margin-top: 5px;
-    margin-left: 340px;
     font-size: 15px;
     color: rgb(32, 36, 41);
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-    word-break: break-all;
+    margin-left: -25px;
 }
 
-.sbn-stroy-book{
+/* .sbn-stroy-book{
     width: auto;
-    display: block;
-}
-
+    display: inline;
+} */
 
 /*poster set*/
-/* .soobin-poster-set{
+.soobin-poster-set{
     margin-top: -20px;
-    margin-left: 330px;
     width: 200px;
     height: 240px;
-    position: relative;
-
+    margin-left: 40px;
 }
 
-.single_soobin{
+/* 단독판매 */
+.single_soobin_ps{
     font-size: 1px;
-    margin-left: -1190px;
-    white-space: nowrap;
+    display: inline;
+    margin-left: -100px;
 }
 
-.soobin-money{
+.soobin-money_ps{
     font-size: 0.9rem;
+    display: inline;
     margin-top: -10px;
-    margin-left: -1150px;
+    margin-left: -80px;
 }
 
 .poster-set_sub{
+    display: inline;
     margin-top: 5px;
-    margin-left: 340px;
     font-size: 15px;
     color: rgb(32, 36, 41);
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-    word-break: break-all;
+    margin-left: 0px;
 }
 
-.sbn-poster-set{
-    display: block;
-} */
+/*potocard set*/
+.soobin-poster-set{
+    margin-top: -20px;
+    width: 200px;
+    height: 240px;
+    margin-left: 40px;
+}
+
+/* 단독판매 */
+.single_soobin_pc{
+    font-size: 1px;
+    display: inline;
+    margin-left: -100px;
+}
+
+.soobin-money_pc{
+    font-size: 0.9rem;
+    display: inline;
+    margin-top: -10px;
+    margin-left: -80px;
+}
+
+.potocard-set_sub{
+    display: inline;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(32, 36, 41);
+    margin-left: 20px;
+}
+
+/*acrylic keying set*/
+.soobin-poster-set{
+    margin-top: -20px;
+    width: 200px;
+    height: 240px;
+    margin-left: 40px;
+}
+
+/* 단독판매 */
+.single_soobin_ac{
+    font-size: 1px;
+    display: inline;
+    margin-left: -100px;
+}
+
+.soobin-money_ac{
+    font-size: 0.9rem;
+    display: inline;
+    margin-top: -10px;
+    margin-left: -90px;
+}
+
+.acrylic-keying_sub{
+    display: inline;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(32, 36, 41);
+    margin-left: 47px;
+}
+
+/*badge set*/
+.soobin-poster-set{
+    margin-top: -20px;
+    width: 200px;
+    height: 240px;
+    margin-left: 40px;
+}
+
+/* 단독판매 */
+.single_soobin_bg{
+    font-size: 1px;
+    display: inline;
+    margin-left: -100px;
+}
+
+.soobin-money_bg{
+    font-size: 0.9rem;
+    display: inline;
+    margin-top: -10px;
+    margin-left: -80px;
+}
+
+.badge-set_sub{
+    display: inline;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(32, 36, 41);
+    margin-left: 0px;
+}
