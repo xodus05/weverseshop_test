@@ -1,0 +1,386 @@
+.logo {
+    margin-top: 10px;
+    margin-left: 330px;
+    width: 160px;
+    height: 23px;
+}
+.txt_logo {
+    width: 23px;
+    height: 23px;
+}
+
+.login_txt{
+    border-radius: 1.8rem;
+    margin: 0px;
+    appearance: none;
+    background: rgb(8, 204, 202);
+    border: none;
+    cursor: pointer;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+}
+
+.color_s{
+    color: rgb(170, 170, 170);
+}
+
+.join_txt{
+    border-radius: 1.8rem;
+    margin: 0px;
+    appearance: none;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    color: rgb(8, 204, 202);
+    border: 1px solid currentColor;
+    display: inline-flex;
+}
+
+.right {
+    margin-top: 10px;
+    float: right;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 290px;
+}
+
+.right_login {
+    float: right;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.main_box{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    --fixed-top-height: 6.4rem;
+    --layout-max-width: 20rem;
+    --layout-padding: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.dvd[aria-current="true"]{
+    margin-right: 20px;
+    color: rgb(8, 204, 202);
+}
+
+.top-bar {
+    text-align: center;
+}
+
+body{
+    overflow: hidden;
+}
+
+/*
+ul, li {
+    list-style: none; margin: 0; padding: 0;
+}
+.clear {
+    clear: both;
+}
+li.on{
+    color: rgb(8, 232, 199);
+} */
+
+
+.merch{
+    margin-right: 20px;
+}
+.dvd{
+    margin-right: 20px;
+}
+.tour-merch{
+    margin-right: 20px;
+}
+.collab{
+    margin-right: 20px;
+}
+.hybe-insight{
+    margin-right: 20px;
+}
+.album{
+    margin-right: 20px;
+}
+.weverse{
+    margin-right: 20px;
+}
+.membership{
+    margin-right: 20px;
+}
+.book{
+    margin-right: 20px;
+}
+.favorites{
+    margin-right: 20px;
+}
+.deco{
+    margin-right: 20px;
+}
+.season-greetings{
+    margin-right: 20px;
+}
+
+.scond_box{
+    background-color: rgb(250, 251, 252);
+    border-bottom: 1px solid rgb(235, 235, 235);
+    
+}
+
+.scond_box_1{
+    width: 100%;
+    position: relative;
+    margin: 0px auto;
+    display: flex;
+    margin-left: 330px;
+    
+}
+
+.scond_box_2{
+    text-align: center;
+}
+
+.all{
+    margin-right: 20px;
+}
+
+.birthday-party{
+    margin-right: 20px;
+}
+
+.official-merch{
+    margin-right: 20px;
+}
+
+.goodboygonebad{
+    margin-right: 20px;
+}
+
+.chaotic{
+    margin-right: 20px;
+}
+
+.foe{
+    margin-right: 20px;
+}
+
+.bluehour{
+    margin-right: 20px;
+}
+
+.eternity{
+    margin-right: 20px;
+}
+
+.magic{
+    margin-right: 20px;
+}
+
+.body_merch_all{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 400px;
+
+}
+.all_main{
+    margin-bottom: 2.2rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.all[aria-current="true"] {
+    color: rgb(250, 251, 252);
+    padding: 10px 15px;
+    background-color: rgb(173, 177, 184);
+    border-radius: 0.4rem;
+}
+
+.goods_all{
+    padding: 0px;
+    list-style: none;
+    margin: 0;
+}
+
+
+/*stroy book*/
+#columns figure{
+    width: 200px;
+    height: 383px;
+    margin-left: 400px;
+    display: flex;
+    
+}
+
+.soobin-stroy-book{
+    margin-top: -20px;
+    width: 200px;
+    height: 240px;
+}
+
+/* 단독판매 */
+.single_soobin_st{
+    font-size: 1px;
+    display: inline;
+    margin-left: -130px;
+}
+
+.soobin-money_st{
+    font-size: 0.9rem;
+    display: inline;
+    margin-top: -10px;
+    margin-left: -110px;
+}
+
+.stroy-book_sub{
+    display: inline;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(32, 36, 41);
+    margin-left: -25px;
+}
+
+/* .sbn-stroy-book{
+    width: auto;
+    display: inline;
+} */
+
+/*poster set*/
+.soobin-poster-set{
+    margin-top: -20px;
+    width: 200px;
+    height: 240px;
+    margin-left: 40px;
+}
+
+/* 단독판매 */
+.single_soobin_ps{
+    font-size: 1px;
+    display: inline;
+    margin-left: -100px;
+}
+
+.soobin-money_ps{
+    font-size: 0.9rem;
+    display: inline;
+    margin-top: -10px;
+    margin-left: -80px;
+}
+
+.poster-set_sub{
+    display: inline;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(32, 36, 41);
+    margin-left: 0px;
+}
+
+/*potocard set*/
+.soobin-poster-set{
+    margin-top: -20px;
+    width: 200px;
+    height: 240px;
+    margin-left: 40px;
+}
+
+/* 단독판매 */
+.single_soobin_pc{
+    font-size: 1px;
+    display: inline;
+    margin-left: -100px;
+}
+
+.soobin-money_pc{
+    font-size: 0.9rem;
+    display: inline;
+    margin-top: -10px;
+    margin-left: -80px;
+}
+
+.potocard-set_sub{
+    display: inline;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(32, 36, 41);
+    margin-left: 20px;
+}
+
+/*acrylic keying set*/
+.soobin-poster-set{
+    margin-top: -20px;
+    width: 200px;
+    height: 240px;
+    margin-left: 40px;
+}
+
+/* 단독판매 */
+.single_soobin_ac{
+    font-size: 1px;
+    display: inline;
+    margin-left: -100px;
+}
+
+.soobin-money_ac{
+    font-size: 0.9rem;
+    display: inline;
+    margin-top: -10px;
+    margin-left: -90px;
+}
+
+.acrylic-keying_sub{
+    display: inline;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(32, 36, 41);
+    margin-left: 47px;
+}
+
+/*badge set*/
+.soobin-poster-set{
+    margin-top: -20px;
+    width: 200px;
+    height: 240px;
+    margin-left: 40px;
+}
+
+/* 단독판매 */
+.single_soobin_bg{
+    font-size: 1px;
+    display: inline;
+    margin-left: -100px;
+}
+
+.soobin-money_bg{
+    font-size: 0.9rem;
+    display: inline;
+    margin-top: -10px;
+    margin-left: -80px;
+}
+
+.badge-set_sub{
+    display: inline;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(32, 36, 41);
+    margin-left: 0px;
+}
